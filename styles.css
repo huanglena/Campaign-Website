@@ -1,0 +1,56 @@
+body {
+    text-align:center;
+    background-color:red;
+}
+#header {
+    background-color:blue;
+}
+h1 {
+    font-family: 'Courgette', cursive;
+    color: yellow;
+}
+h2 {
+    font-family: 'Merienda', cursive;
+}
+p {
+    font-family: 'Kalam', cursive;
+    font-size:20px;
+}
+
+img {
+    width:600px;
+}
+p {
+   color:pink; 
+}
+#donate {
+    background-color:purple;
+    width:40%;
+}
+#donate button {
+    width: 200px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+#donate button:hover {
+    background: yellow;
+    color: black;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    background-color:lavender;
+}
+#end {
+    background-color:red;
+}
+.columns {
+    display:flex;
+    justify-content:center;
+}
